@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="09b37d97e7f94de18a90e15826925768" Name="Diagram1">
+        <EntityTypeShape EntityType="libraryModel.authors" Width="1.5" PointX="0.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="libraryModel.authors_books" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="libraryModel.books" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="libraryModel.readers" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="libraryModel.taken_books" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="libraryModel.FK__authors_b__id_au__286302EC" ManuallyRouted="false" />
+        <AssociationConnector Association="libraryModel.FK__authors_b__id_bo__29572725" ManuallyRouted="false" />
+        <AssociationConnector Association="libraryModel.FK__taken_boo__id_bo__2F10007B" ManuallyRouted="false" />
+        <AssociationConnector Association="libraryModel.FK__taken_boo__id_re__2E1BDC42" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
